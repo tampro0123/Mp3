@@ -27,60 +27,13 @@ const app = {
     localStorage.setItem(PLAYER_STORAGE_KEY, JSON.stringify(this.config));
   },
   songs: [
+   
     {
-      name: "2AM",
-      singer: "Trúc Quỳnh",
-      path: "./song/songQuynh/2AM.mp3",
-      image: "./img/imgQuunh/Quynh1.jpg",
-    },
-    {
-      name: "Chiếc Khăn Gió Ấm",
-      singer: "Trúc Quỳnh",
-      path: "./song/songQuynh/ChiecKhanGioAm.mp3",
-      image: "./img/imgQuunh/Quynh2.jpg",
-    },
-    {
-      name: "Dạ Vũ",
-      singer: "Trúc Quỳnh",
-      path: "./song/songQuynh/DạVu.mp3",
-      image: "./img/imgQuunh/Quynh3.jpg",
-    },
-    {
-      name: "Hoàn Hảo",
-      singer: "Trúc Quỳnh",
-      path: "./song/songQuynh/HoànHao.mp3",
-      image: "./img/imgQuunh/Quynh4.jpg",
-    },
-    {
-      name: "Hôm Nay Tôi Buồn",
-      singer: "Trúc Quỳnh",
-      path: "./song/songQuynh/HômNayToiBuon.mp3",
-      image: "./img/imgQuunh/Quynh5.jpg",
-    },
-    {
-      name: "Liệu Giờ",
-      singer: "Trúc Quỳnh",
-      path: "./song/songQuynh/LieuGio_2T.mp3",
-      image: "./img/imgQuunh/Quynh6.jpg",
-    },
-    {
-      name: "Love You",
-      singer: "Trúc Quỳnh",
-      path: "./song/songQuynh/LoveYou.mp3",
-      image: "./img/imgQuunh/Quynh7.jpg",
-    },
-    {
-      name: "MatChaNah",
-      singer: "Trúc Quỳnh",
-      path: "./song/songQuynh/matchanah.mp3",
-      image: "./img/imgQuunh/Quynh8.jpg",
-    },
-    {
-      name: "Từ ngày em đến",
-      singer: "Trúc Quỳnh",
-      path: "./song/songQuynh/TưNgayEmĐen.mp3",
-      image: "./img/imgQuunh/Quynh9.jpg",
-    },
+      name: "Anh không tha thứ",
+      singer: "Đinh Hình",
+      path : "./song/210-Xuân-Diệu.mp3",
+      image: "./img/imgQuunh/379546547_233246846036638_4268262310045788963_n.jpg",
+    }
   ],
 
   render: function () {
